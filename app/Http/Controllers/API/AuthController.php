@@ -18,12 +18,13 @@ class AuthController extends Controller
             'email' => 'required',
             'password' => 'required',
             'phoneNumber' => 'required',
-            'role_id' => 'required'
         ]);
 
         $validatedData['password'] = bcrypt($request->password);
+        $validatedData['role_id'] = 2;
 
         $users = User::create($validatedData);
+        return response(['data' => $users]);
         $users->save;
 
     }

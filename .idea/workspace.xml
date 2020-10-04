@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd02036f-2b3b-4e5d-a185-9207ed89b9bc" name="Default Changelist" comment="" />
+    <list default="true" id="cd02036f-2b3b-4e5d-a185-9207ed89b9bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -129,12 +138,14 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iK1DC2gBmieaxC0YsrFacPbHv9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="env&#9;null&#9;null&#10;index&#9;FILE&#9;file://F:/Work/Projects/ticketSystem-master/resources/views/bookTicket/index.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -162,7 +173,7 @@
       <workItem from="1601641353155" duration="134000" />
       <workItem from="1601641602589" duration="599000" />
       <workItem from="1601785202328" duration="1320000" />
-      <workItem from="1601786555566" duration="11511000" />
+      <workItem from="1601786555566" duration="15883000" />
     </task>
     <servers />
   </component>
@@ -186,9 +197,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="347" y="169" key="run.anything.popup.inPresentationMode/0.0.1366.728@0.0.1366.728" timestamp="1601641466017" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601796563836">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601803590910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601796563836" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601803590910" />
   </component>
 </project>
