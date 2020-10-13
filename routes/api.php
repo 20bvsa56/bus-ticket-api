@@ -9,5 +9,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('register', 'API\AuthController@register');
 Route::post('login', 'API\AuthController@login');
-Route::get('fromRoute', 'API\RouteController@fromRoute');
-Route::get('toRoute', 'API\RouteController@toRoute');
+Route::get('getBusDetails', 'API\BusDetailsController@getBusDetails');
+Route::get('getDestinations', 'API\DestinationsController@getDestinations');
+Route::get('getUsersData', 'API\UserDataController@getUsersData');
+Route::get('getTickets', 'API\TicketsController@getTickets');
+
+
+

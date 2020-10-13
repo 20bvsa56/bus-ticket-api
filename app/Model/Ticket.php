@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ticket extends Model
 {
+    protected $table = 'tickets';
     public $timestamps = false;
     protected $casts = [
         'allocated_seats' => 'array'
